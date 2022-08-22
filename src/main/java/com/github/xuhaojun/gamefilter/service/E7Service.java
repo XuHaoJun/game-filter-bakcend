@@ -45,7 +45,8 @@ public class E7Service {
 
   private List<E7Hero> readHeroes() {
     try {
-      return Arrays.asList(objectMapper.readValue(e7HeroesJsonResource.getFile(), E7Hero[].class));
+      return Arrays.asList(
+          objectMapper.readValue(e7HeroesJsonResource.getInputStream(), E7Hero[].class));
     } catch (StreamReadException e) {
       e.printStackTrace();
     } catch (DatabindException e) {
@@ -62,7 +63,8 @@ public class E7Service {
 
   private List<E7Buff> readBuffs() {
     try {
-      return Arrays.asList(objectMapper.readValue(e7BuffsJsonResource.getFile(), E7Buff[].class));
+      return Arrays.asList(
+          objectMapper.readValue(e7BuffsJsonResource.getInputStream(), E7Buff[].class));
     } catch (StreamReadException e) {
       e.printStackTrace();
     } catch (DatabindException e) {
