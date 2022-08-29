@@ -14,8 +14,8 @@
     }
   },
   {
-    "id": "thief",
-    "name": "thief",
+    "id": "assassin",
+    "name": "assassin",
     "assets": {
       "icon": "https://assets.epicsevendb.com/class/cm_icon_role_thief.png"
     }
@@ -28,8 +28,8 @@
     }
   },
   {
-    "id": "soul-weaver",
-    "name": "soul-weaver",
+    "id": "manauser",
+    "name": "manauser",
     "assets": {
       "icon": "https://assets.epicsevendb.com/class/cm_icon_role_soul-weaver.png"
     }
