@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.xuhaojun.gamefilter.to.e7.E7Buff;
 import com.github.xuhaojun.gamefilter.to.e7.E7Hero;
 import com.github.xuhaojun.gamefilter.to.e7.E7HeroesResponse;
+import com.github.xuhaojun.gamefilter.to.e7.E7Role;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -28,14 +29,19 @@ public class E7Service {
   @Value("classpath:game-data/e7/e7-buffs-tw.json")
   Resource e7BuffsJsonResource;
 
+  @Value("classpath:game-data/e7/e7-roles.json")
+  Resource e7RolesJsonResource;
+
   private static ObjectMapper objectMapper = defaultObjectMapper();
   private static List<E7Hero> heroes;
   private static List<E7Buff> buffs;
+  private static List<E7Role> roles;
 
   @PostConstruct
   private void init() {
     loadHeroes();
     loadBuffs();
+    loadRoles();
   }
 
   private static ObjectMapper defaultObjectMapper() {
@@ -79,7 +85,30 @@ public class E7Service {
     buffs = readBuffs();
   }
 
+  private List<E7Role> readRoles() {
+    try {
+      return Arrays.asList(
+          objectMapper.readValue(e7RolesJsonResource.getInputStream(), E7Role[].class));
+    } catch (StreamReadException e) {
+      e.printStackTrace();
+    } catch (DatabindException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return null;
+  }
+
+  private void loadRoles() {
+    roles = readRoles();
+  }
+
   public E7HeroesResponse getHeroesResponse() {
-    return E7HeroesResponse.builder().heroes(heroes).total(heroes.size()).buffs(buffs).build();
+    return E7HeroesResponse.builder()
+        .heroes(heroes)
+        .total(heroes.size())
+        .buffs(buffs)
+        .roles(roles)
+        .build();
   }
 }
