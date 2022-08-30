@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fire",
+    "name": "fire",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/attribute/cm_icon_profire.png"
+    }
+  },
+  {
+    "id": "ice",
+    "name": "ice",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/attribute/cm_icon_proice.png"
+    }
+  },
+  {
+    "id": "wind",
+    "name": "wind",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/attribute/cm_icon_proearth.png"
+    }
+  },
+  {
+    "id": "light",
+    "name": "light",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/attribute/cm_icon_promlight.png"
+    }
+  },
+  {
+    "id": "dark",
+    "name": "dark",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/attribute/cm_icon_promdark.png"
+    }
+  }
+]

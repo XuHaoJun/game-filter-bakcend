@@ -1,0 +1,37 @@
+[
+  {
+    "id": "5",
+    "name": "5",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/star/cm_icon_star.png"
+    }
+  },
+  {
+    "id": "4",
+    "name": "4",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/star/cm_icon_star.png"
+    }
+  },
+  {
+    "id": "3",
+    "name": "3",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/star/cm_icon_star.png"
+    }
+  },
+  {
+    "id": "2",
+    "name": "2",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/star/cm_icon_star.png"
+    }
+  },
+  {
+    "id": "1",
+    "name": "1",
+    "assets": {
+      "icon": "https://assets.epicsevendb.com/star/cm_icon_star.png"
+    }
+  }
+]

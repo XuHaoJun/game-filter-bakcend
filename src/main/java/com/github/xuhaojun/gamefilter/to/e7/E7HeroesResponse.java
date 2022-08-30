@@ -15,4 +15,6 @@ public class E7HeroesResponse {
   private List<E7Hero> heroes;
   private List<E7Buff> buffs;
   private List<E7Role> roles;
+  private List<E7Element> elements;
+  private List<E7Rarity> rarities;
 }
