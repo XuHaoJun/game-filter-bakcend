@@ -13,5 +13,8 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /
 COPY --from=build-stage /source/app.jar app.jar
 COPY docker-entrypoint.sh .
+
+EXPOSE 8080
+
 CMD []
 ENTRYPOINT ["./docker-entrypoint.sh"]
