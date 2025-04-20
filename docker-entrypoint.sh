@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec java -jar /app.jar --server.port=${PORT:-8080}
+exec java $JAVA_OPTS -jar /app.jar --server.port=${PORT:-8080}

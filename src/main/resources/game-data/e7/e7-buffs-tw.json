@@ -4,6 +4,7 @@
     "id": 1,
     "type": "buff",
     "name": "攻擊力增加",
+    "enName": "increase-attack",
     "effect": "攻擊力增加50%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_att_up.png"
@@ -54,6 +55,7 @@
     "id": 12,
     "type": "buff",
     "name": "免疫",
+    "enName": "debuff-immunity",
     "effect": "目標不會受到任何弱化效果及部分有害效果的影響。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_debuf_impossible.png"
@@ -94,6 +96,7 @@
     "id": 14,
     "type": "buff",
     "name": "不死",
+    "enName": "immortal",
     "effect": "目標在效果持續回合期間不會死亡。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_immortality.png"
@@ -114,6 +117,7 @@
     "id": 15,
     "type": "buff",
     "name": "隱身",
+    "enName": "stealth",
     "effect": "如果有其他我軍的話，不會成為攻擊目標。受到廣域攻擊時傷害減少，受到攻擊造成的傷害時則會解除。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_hide.png"
@@ -134,6 +138,7 @@
     "id": 16,
     "type": "buff",
     "name": "甦醒",
+    "enName": "revive",
     "effect": "目標受到致命的傷害時，會恢復最大生命力的30%並復活。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_bless.png"
@@ -164,6 +169,7 @@
     "id": 2,
     "type": "buff",
     "name": "防禦力增加",
+    "enName": "increase-defense",
     "effect": "防禦力增加60%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_def_up.png"
@@ -184,6 +190,7 @@
     "id": 3,
     "type": "buff",
     "name": "速度提升",
+    "enName": "increase-speed",
     "effect": "速度增加30%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_up.png"
@@ -194,6 +201,7 @@
     "id": 38,
     "type": "buff",
     "name": "狂氣",
+    "enName": "fury",
     "effect": "攻擊力及速度增加10%。狂氣不會被解除強化。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_madness.png"
@@ -324,6 +332,7 @@
     "id": 46,
     "type": "buff",
     "name": "技能傷害無效",
+    "enName": "skill-nullifier",
     "effect": "使技能造成的傷害無效。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_endure.png"
@@ -384,6 +393,7 @@
     "id": 5,
     "type": "buff",
     "name": "防護罩",
+    "enName": "barrier",
     "effect": "受到傷害時，會代替生命力吸收部分的傷害。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_protect.png"
@@ -434,6 +444,7 @@
     "id": 59,
     "type": "buff",
     "name": "心眼",
+    "enName": "minds-eye",
     "effect": "效果命中和效果抗性增加30%。心眼無法被解除強化。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_wildeye.png"
@@ -454,6 +465,7 @@
     "id": 6,
     "type": "buff",
     "name": "無敵",
+    "enName": "invincible",
     "effect": "受到的所有傷害無效。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_invincible.png"
@@ -524,6 +536,7 @@
     "id": 7,
     "type": "buff",
     "name": "反擊",
+    "enName": "counterattack",
     "effect": "目標受擊時，立刻以基本技能攻擊攻擊自己的目標。但在追加攻擊或反擊時則不會觸發。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_counter.png"
@@ -1274,6 +1287,7 @@
     "id": "1a",
     "type": "common",
     "name": "攻擊力增加",
+    "enName": "increase-attack",
     "effect": "攻擊力增加50%。不會受到針對強化效果的各種效果影響。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_att_up_aura.png"
@@ -1314,6 +1328,7 @@
     "id": "29a",
     "type": "common",
     "name": "無法強化",
+    "enName": "cannot-buff",
     "effect": "無法獲得任何強化效果。不會受到針對弱化效果的各種效果影響。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_buf_impossible_aura.png"
@@ -1344,6 +1359,7 @@
     "id": 35,
     "type": "common",
     "name": "追加回合",
+    "enName": "extra-turn",
     "effect": "目標變得可以再行動一次。",
     "assets": {
       "icon": null
@@ -1354,6 +1370,7 @@
     "id": 36,
     "type": "common",
     "name": "轉移",
+    "enName": "transfer",
     "effect": "將會轉移弱化效果給其他的目標。",
     "assets": {
       "icon": null
@@ -1844,6 +1861,7 @@
     "id": 17,
     "type": "debuff",
     "name": "攻擊力減少",
+    "enName": "decrease-attack",
     "effect": "攻擊力減少50%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_att_dn.png"
@@ -1864,6 +1882,7 @@
     "id": 18,
     "type": "debuff",
     "name": "防禦力減少",
+    "enName": "decrease-defense",
     "effect": "防禦力減少70%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_def_dn.png"
@@ -1884,6 +1903,7 @@
     "id": 19,
     "type": "debuff",
     "name": "速度下降",
+    "enName": "decrease-speed",
     "effect": "速度減少30%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
@@ -1904,6 +1924,7 @@
     "id": 20,
     "type": "debuff",
     "name": "暈眩",
+    "enName": "stun",
     "effect": "在持續回合內無法行動。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_stun.png"
@@ -1924,6 +1945,7 @@
     "id": 21,
     "type": "debuff",
     "name": "睡眠",
+    "enName": "sleep",
     "effect": "在持續回合內無法行動。暴擊抗性減少100%，受到攻擊造成的傷害時則會解除。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_sleep.png"
@@ -1954,6 +1976,7 @@
     "id": 22,
     "type": "debuff",
     "name": "命中率減少",
+    "enName": "decrease-hit-chance",
     "effect": "命中率減少50%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_blind.png"
@@ -1994,6 +2017,7 @@
     "id": 24,
     "type": "debuff",
     "name": "中毒",
+    "enName": "poison",
     "effect": "目標在回合開始時將會受到最大生命力5%的傷害。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_dot.png"
@@ -2014,6 +2038,7 @@
     "id": 25,
     "type": "debuff",
     "name": "挑釁",
+    "enName": "provoke",
     "effect": "回合開始時，會被迫向施展挑釁的目標使用基本技能。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_provoke.png"
@@ -2034,6 +2059,7 @@
     "id": 26,
     "type": "debuff",
     "name": "標靶",
+    "enName": "target",
     "effect": "受到的傷害量增加15%，迴避減少15%。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_target.png"
@@ -2054,6 +2080,7 @@
     "id": 27,
     "type": "debuff",
     "name": "無法恢復",
+    "enName": "unhealable",
     "effect": "目標無法恢復生命力。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_heal_impossible.png"
@@ -2074,6 +2101,7 @@
     "id": 28,
     "type": "debuff",
     "name": "沉默",
+    "enName": "silence",
     "effect": "目標無法使用有冷卻時間的技能。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_silence.png"
@@ -2134,6 +2162,7 @@
     "id": 31,
     "type": "debuff",
     "name": "燒傷",
+    "enName": "burn",
     "effect": "回合開始時，根據施展者的攻擊力受到等比的巨大傷害。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_blaze.png"
@@ -2154,6 +2183,7 @@
     "id": 32,
     "type": "debuff",
     "name": "出血",
+    "enName": "bleed",
     "effect": "回合開始時，根據施展者的攻擊力受到等比傷害。",
     "assets": {
       "icon": "https://assets.epicsevendb.com/_source/buff/stic_blood.png"
@@ -2344,6 +2374,7 @@
     "id": "c1044_r",
     "type": "debuff",
     "name": "隨機弱化效果",
+    "enName": "random-debuff",
     "effect": "沉默、防禦力減少、攻擊力減少、無法恢復",
     "assets": {
       "icon": null

@@ -16,5 +16,7 @@ COPY docker-entrypoint.sh .
 
 EXPOSE 8080
 
+ENV JAVA_OPTS="-Xmx256m -Xms256m"
+
 CMD []
 ENTRYPOINT ["./docker-entrypoint.sh"]

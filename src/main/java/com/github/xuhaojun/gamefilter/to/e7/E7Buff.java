@@ -14,6 +14,7 @@ public class E7Buff {
   public String id;
   public String type;
   public String name;
+  public String enName;
   public String effect;
   public E7BuffAssets assets;
 }
